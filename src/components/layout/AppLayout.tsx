@@ -1,15 +1,3 @@
-// import Sidebar from "./Sidebar";
-
-// export default function AppLayout({ children }: any) {
-//   return (
-//     <div className="flex h-screen">
-//       <Sidebar />
-
-//       <div className="flex-1 bg-gray-50 overflow-auto">{children}</div>
-//     </div>
-//   );
-// }
-
 import Sidebar from "./Sidebar";
 
 export default function AppLayout({ children }: any) {

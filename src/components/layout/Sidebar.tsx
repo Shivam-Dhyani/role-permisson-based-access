@@ -1,38 +1,3 @@
-// import { Sidebar as ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
-// import { useAuth } from "../../hooks/useAuth";
-// import { hasViewAccess } from "../../utils/permission";
-// import { Link } from "react-router-dom";
-
-// const modules = [
-//   { name: "dashboard", label: "Dashboard" },
-//   { name: "customers", label: "Customers" },
-//   { name: "engineers", label: "Engineers" },
-//   { name: "sites", label: "Sites" },
-//   { name: "jobs", label: "Jobs" },
-//   { name: "equipments", label: "Equipments" },
-//   { name: "settings", label: "Settings" },
-// ];
-
-// export default function Sidebar() {
-//   const { user } = useAuth();
-
-//   if (!user) return null;
-
-//   return (
-//     <ProSidebar>
-//       <Menu>
-//         {modules.map((mod) =>
-//           hasViewAccess(user, mod.name as any) ? (
-//             <MenuItem key={mod.name}>
-//               <Link to={`/${mod.name}`}>{mod.label}</Link>
-//             </MenuItem>
-//           ) : null,
-//         )}
-//       </Menu>
-//     </ProSidebar>
-//   );
-// }
-
 import { useState } from "react";
 import {
   LayoutDashboard,
